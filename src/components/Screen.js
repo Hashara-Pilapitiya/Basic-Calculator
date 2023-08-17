@@ -1,12 +1,13 @@
 import React, { useContext } from 'react';
 import { CalContext } from '../context/CalContext';
+import { Textfit } from 'react-textfit';
 
 
 const Screen = () => {
-  const { clac } = useContext(CalContext);
+  const { calc } = useContext(CalContext);
 
   return (
-    <div className='screen'>03456</div>
+    <Textfit className='screen' max={70} mode='single'>{calc.num ? calc.num : calc.res}</Textfit>
   )
 }
 
