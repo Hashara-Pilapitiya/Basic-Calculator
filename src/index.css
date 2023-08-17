@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200;300;400;500;600;700;800&family=Rubik:wght@300;400;500&family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200;300;400;500;600;700;800&family=Roboto:wght@300;400;500&family=Rubik:wght@300;400;500&family=Signika+Negative:wght@300;400;500;600;700&display=swap');
 
 *{
   margin: 0;
@@ -12,7 +12,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 .screen{
