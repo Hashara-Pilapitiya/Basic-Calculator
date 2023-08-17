@@ -6,7 +6,7 @@ const Screen = () => {
   const { clac } = useContext(CalContext);
 
   return (
-    <div className='screen'><h1>0</h1></div>
+    <div className='screen'>03456</div>
   )
 }
 
